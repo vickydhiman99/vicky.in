@@ -37,7 +37,7 @@
     <div class="container">
 
       <a href="#">
-        <h1 class="logo">Vicky Kumar</h1>
+        <img src="./assets//images/logo-png.png" style="width: 10vw;" alt="">
       </a>
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
@@ -73,7 +73,8 @@
           </li>
 
           <li>
-            <a href="https://drive.google.com/file/d/1abG6HNyeBzGj0BIhonhYBn5TLvSXnpBd/view?usp=drive_link" download="/assets//images//blog-2.jpg" class="btn btn-primary">Download CV</a>
+            <a href="https://drive.google.com/file/d/1abG6HNyeBzGj0BIhonhYBn5TLvSXnpBd/view?usp=drive_link"
+              download="/assets//images//blog-2.jpg" class="btn btn-primary">Download CV</a>
           </li>
 
         </ul>
@@ -130,7 +131,9 @@
             </h2>
 
             <p class="hero-text">
-              I'M Mern Full-Stack Developer/Android Developer currently i am working as react developer in india also sharing my knowledge & Activity in Social Media that i have Gained in my carrer through online learning across the world
+              I'M Mern Full-Stack Developer/Android Developer currently i am working as react developer in india also
+              sharing my knowledge & Activity in Social Media that i have Gained in my carrer through online learning
+              across the world
             </p>
 
             <div class="btn-group">
@@ -438,7 +441,7 @@
 
             <div class="wrapper">
 
-              <form action="" class="contact-form">
+              <form action="" class="contact-form" onsubmit="sendEmail(); reset(); return false">
 
                 <input type="text" name="name" placeholder="Name" required class="contact-input">
 
@@ -462,7 +465,7 @@
                     <h3 class="contact-item-title">Address</h3>
 
                     <address class="contact-item-link">
-                     <a href="https://maps.app.goo.gl/PFoYFa84GYkXNc5c6"> Marathahali, Banglore, India.</a>
+                      <a href="https://maps.app.goo.gl/PFoYFa84GYkXNc5c6"> Marathahali, Banglore, India.</a>
                     </address>
                   </div>
 
@@ -643,6 +646,8 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
